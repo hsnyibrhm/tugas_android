@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+
+        <!-- Content inside the CardView, you can customize it based on your needs -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Add TextView for Name -->
+            <TextView
+                android:id="@+id/tv_item_name"
+                android:text="@string/Player_name"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Add TextView for Description -->
+            <TextView
+                android:id="@+id/tv_item_description"
+                android:text="Deskripsi"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_set_overview"
+                android:text="@string/content_overview"
+                android:textColor="@android:color/black"
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Add more views or content here as needed -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_dett"
+                android:text="THOPHY"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_det"
+                android:text="@string/content_detail"
+                android:textColor="@android:color/black"
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

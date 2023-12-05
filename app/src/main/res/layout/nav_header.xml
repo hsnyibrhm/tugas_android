@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/white"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Gambar profil -->
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/baseline_person_24"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/profile"/>
+
+    <!-- Nama pengguna -->
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <!-- Email pengguna -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_email"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"/>
+</LinearLayout>

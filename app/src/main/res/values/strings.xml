@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">FootBall Player</string>
+    <string name="my_email">gedangkapasan@gmail.com</string>
+    <string name="profile">Profile</string>
+    <string name="Player_name">Nama Pemain</string>
+    <string name="Player_rate">Rate Player</string>
+    <string name="Player_detail">Detail Pemain</string>
+    <string name="Player_overview">Deskripsi</string>
+    <string name="my_name">Hasany Ibohim</string>
+
+    <string name="title_about_detail">Contact Person \n  \nTwitter \nInstagram \nLinkedIn  \n </string>
+    <string name="about_detail">\n \n@hsnyibrhm \n@hsnyibrhm \nhttps://www.linkedin.com/in/hasany-ibrohim-160899295/   </string>
+    <string name="content_overview">Content Overview</string>
+    <string name="content_detail">Content detail</string>
+
+    <string-array name="data_name">
+        <item>Lionel Messi</item>
+        <item>Critiano Ronaldo</item>
+        <item>Zinedine Zidane</item>
+        <item>Pele</item>
+        <item>Maradona</item>
+        <item>Johan Cruyff</item>
+        <item>Franz Beckenbauer</item>
+        <item>Arjen Robben</item>
+        <item>Manuel Neuer</item>
+        <item>Ronaldo de Lima</item>
+    </string-array>
+
+    <string-array name="spek">
+        <item>La Liga 10 &#10;UEFA Champions League 4 &#10;FIFA World Player of the Year 7&#10;Ballon dOr 7</item>
+        <item>La Liga 2 &#10;UEFA Champions League 5 &#10;FIFA World Player of the Year 5&#10;Ballon dOr 5</item>
+        <item>La Liga 1 &#10;UEFA Champions League 1 &#10;FIFA World Player of the Year 1&#10;Ballon dOr 1</item>
+        <item>Brasileirão Série A 6 &#10;Copa do Brasil 2 &#10;FIFA World Player of the Year 1&#10;Ballon dOr 7</item>
+        <item>Primera División 1 &#10;Copa del Rey 1 &#10;FIFA World Player of the Year 1&#10;Ballon dOr 1</item>
+        <item>Eredivisie 9 &#10;UEFA Champions League 3 &#10;FIFA World Player of the Year 3&#10;Ballon dOr 3</item>
+        <item>Bundesliga 5 &#10;UEFA Champions League 3 &#10;FIFA World Player of the Year 2&#10;Ballon dOr 2</item>
+        <item>Eredivisie 4 &#10;Bundesliga 1 &#10;UEFA Champions League 1 &#10;FIFA World Player of the Year 2&#10;Ballon dOr 0</item>
+        <item>Bundesliga 10 &#10;DFB-Pokal 6 &#10;UEFA Champions League 2 &#10;FIFA World Player of the Year 4&#10;Ballon dOr 4</item>
+        <item>La Liga 2 &#10;UEFA Champions League 1 &#10;FIFA World Player of the Year 2&#10; Ballon dOr 2</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item> Pemain sepak bola asal NegaraArgentina yang sukses di kancah Dunia Internasional ini, banyak digemari oleh masyarakat di seluruh Dunia. Pria dengan nama lengkap Lionel Andres Messi Cuccittini atau biasa di panggil dengan nama Lionel Messi. Para pecinta sepak bola, pastinya mengetahui bakat dan prestasi yang sudah diraih dan dipertontonkan oleh seorang Lionel Messi. Bakat sepak bola yang kebanyakan digemari oleh kaum laki-laki ini, menjadi bakat emas bagi Messi sendiri. Lionel Messi lahir di Rosario, pada tanggal 24 Juni tahun 1987, atau kalau diperhitungkan sekarang Lionel Messi sudah berusia 31 tahun. Umur yang sudah tidak muda lagi, namun Lionel Messi masih memiliki semangat yang menggelora dalam pertandingan sepak bola.</item>
+        <item> Cristiano Ronaldo terlahir dengan nama lengkap Cristiano Ronaldo dos Santos Aveiro. Ia lahir pada tanggal 5 Februari 1985 di Funchal. Ia adalah anak dari Maria Dolores dos Santos Aveiro dan José Dinis Aveiro. Dia memiliki kakak laki-laki bernama Hugo, dan dua kakak perempuan, Elma dan Liliana Cátia. Liliana Bekerja sebagai penyanyi dengan nama panggung “Ronalda” di Portugal. Nama kedua yang diberikan kepada Cristiano (”Ronaldo”) relatif langka di Portugal. Artikel diambil dari Biografiku.com. Silahkan di copy sebagai bahan referensi, Mohon cantumkan sumber : https://www.biografiku.com/biografi-cristiano-ronaldo.</item>
+        <item> Nama aslinya adalah Zinedine Yazid Zidane. Ia lahir di Marseille, Perancis, 23 Juni 1972, dengan nama panggilan Zizou. Ia merupakan mantan pemain sepak bola Perancis keturunan Aljazair. Ayahnya bernama Smail Zidane dan ibunya bernama Malika Zidane. Ia juga memiliki empat orang saudara. Zidane diketahui sebagai pemain sepakbola beragama Islam. Namun dalam sebuah wawancara tahun 2014, ia mendeskripsikan dirinya sebagai‘non-practising Muslim‘ seperti yang dikutip dari theguardian.com. Artikel diambil dari Biografiku.com. Silahkan di copy sebagai bahan referensi, Mohon cantumkan sumber : https://www.biografiku.com/biografi-zinedine-zidane.</item>
+        <item> Legenda sepakbola satu ini terlahir dengan nama lengkap Edson Arantes Do Nascimento, Ia merupakan anak dari Dodinho (ayah), Dona Celeste Arantes (ibu). Ia memiliki dua orang saudara kandung bernamaMaria Lúcia Nascimento dan Zeca Nascimento. Bakat Pele pertama kali ditemukan oleh mantan pemain Brasil Waldemar de Brito. Kala itu usia ia baru menginjak 11 tahun. Artikel diambil dari Biografiku.com. Silahkan di copy sebagai bahan referensi, Mohon cantumkan sumber : https://www.biografiku.com/biografi-pele.</item>
+        <item> Sang Legenda Hidup sepak bola dunia asal Argentina tahun ’80-an ia adalah Diego Armando Maradona lahir 30 Oktober 1960 di kota Buenos Aires Argentina. Maradona di lapanagan menempati posisi sebagai Supporting Striker dan Attacking Midfielder. Maradona di masa itu menjadi idola masyarakat Argentina. Artikel diambil dari Biografiku.com. Silahkan di copy sebagai bahan referensi, Mohon cantumkan sumber : https://www.biografiku.com/biografi-diego-armando-maradona.</item>
+        <item> Johan Cruyff lahir dengan nama lengkap Hendrik Johannes Cruijff pada tanggal 25 April 1947 di Amsterdam, Belanda. Ia memulai karir sepakbola sebagai seorang gelandang serang dan penyerang. Cruyff memulai karir junior bersama Ajax Amsterdam.</item>
+        <item> seorang pemain sepakbola Jerman yang juga merupakan manta pelatih dan tokoh di bidang organisasi sepakbola. Ia dijuluki Der Kaiser (“Sang Kaisar”) karena gayanya yang elegan, kemampuannya memimpin dan dominasinya di atas lapangan sepakbola, sebagai seorang pemain bertahan atau libero. Ia menjadi anggota tim nasional Jerman Barat sejak akhir dekade 1960-an hingga akhir 1970-an. Sewaktu Jerman Barat menjuarai Piala Dunia FIFA 1974 ia menjadi kapten tim. Beckenbauer kemudian menjadi pelatih timnas Jerman dan berhasil membawa kesebelasan Jerman menjuarai Piala Dunia FIFA 1990 di Italia. Berikut biografi Franz Beckenbauer.</item>
+        <item> Arjen Robben Lahir pada tanggal 23 januari 1984 di Bedum, Belanda dari pasangan Hans Robben dan Marjo Robben. Ayahnya merupakan seorang agen pemain sepakbola sedangkan ibunya adalah seorang selebriti. Ia dibesarkan oleh orang tuanya di kota Groningen, Belanda.</item>
+        <item>  pemain sepak bola berkebangsaan Jerman, yang berposisi sebagai penjaga gawang. Saat ini ia bermain untuk Bayern München. Selain itu, ia juga bermain untuk tim nasional Jerman. Pemain kelahiran Gelsenkirchen, Jerman Barat pada 27 Maret 1986 ini mengawali kariernya dengan bergabung bersama klub kota asalnya, Schalke 04. Sempat berada di klub kedua, yakni Schalke 04 II, Neuer akhirnya dipindahkan ke Schalke 04 pada tahun 2006. Bersama Schalke 04, Neuer tampil 155 kali namun tidak mencetak gol.</item>
+        <item> Ronaldo Nazario adalah salah satu penyerang terbaik sepanjang sejarah sepakbola dunia. Karena banyak catatan rekor maupun gelar bagi klub dan timnas Brasil berhasil diraihnya. Salah satunya adalah dirinya pernah membawa timnas Brasil menjadi juara Piala Dunia 1994 dan 2002. Selain itu, pemain kelahiran Rio de Janeiro ini pernah meraih penghargaan individu Ballon d’or dua kali yaitu 1997 dan 2002.</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/messi</item>
+        <item>@drawable/ronaldo</item>
+        <item>@drawable/zidan</item>
+        <item>@drawable/pele</item>
+        <item>@drawable/maradona</item>
+        <item>@drawable/cc</item>
+        <item>@drawable/bb</item>
+        <item>@drawable/roben</item>
+        <item>@drawable/neuer</item>
+        <item>@drawable/botak</item>
+    </integer-array>
+</resources>
