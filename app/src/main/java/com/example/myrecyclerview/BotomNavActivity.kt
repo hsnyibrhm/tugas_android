@@ -1,5 +1,6 @@
 package com.example.myrecyclerview
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -18,7 +19,10 @@ class BotomNavActivity : AppCompatActivity() {
         binding.bottomNavigationView.setOnItemSelectedListener{ menuItem ->
             when(menuItem.itemId){
                 R.id.alarm ->replaceFragment(AlarmFragment())
-
+                R.id.nav_draw ->{
+                    val intent = Intent(this, NavDrawerActivity::class.java)
+                    startActivity(intent)
+                }
                 else->{
 
                 }

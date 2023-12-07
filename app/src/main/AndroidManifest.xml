@@ -12,10 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyRecyclerView"
         tools:targetApi="31">
+        <activity
+            android:name=".NavDrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/Theme.MyRecyclerView.NoActionBar" />
+
         <receiver
             android:name=".Myreceiver"
             android:enabled="true"
-            android:exported="false"/>
+            android:exported="false" />
+
         <activity
             android:name=".BotomNavActivity"
             android:exported="false" />

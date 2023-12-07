@@ -1,6 +1,8 @@
 package com.example.myrecyclerview
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -10,8 +12,8 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
-
-
+    private val PREFS_NAME = "MyPrefs"
+    private val KEY_CLICK_COUNT = "clickCount"
     private lateinit var rvPlayer: RecyclerView
     private val list = ArrayList<Player>()
 
@@ -19,12 +21,35 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val clickCount = readClickCount()
+
+        // Menampilkan jumlah klik di log
+        println("Jumlah klik sebelumnya: $clickCount")
+
+        // Menyimpan jumlah klik yang baru
+        saveClickCount(clickCount + 1)
+
         rvPlayer = findViewById(R.id.rv_heroes)
         rvPlayer.setHasFixedSize(true)
 
         list.addAll(getListPlayer())
         showRecyclerList()
     }
+
+    private fun saveClickCount(clickCount: Int) {
+        val sharedPreferences: SharedPreferences =
+            getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = sharedPreferences.edit()
+        editor.putInt(KEY_CLICK_COUNT, clickCount)
+        editor.apply()
+    }
+
+    private fun readClickCount(): Int {
+        val sharedPreferences: SharedPreferences =
+            getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        return sharedPreferences.getInt(KEY_CLICK_COUNT, 0)
+    }
+
     private fun getListPlayer(): ArrayList<Player> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
