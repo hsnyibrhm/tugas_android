@@ -68,6 +68,10 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, MainActivity2::class.java)
                 startActivity(intent)
             }
+            R.id.btm_nav -> {
+                val intent = Intent(this, BotomNavActivity::class.java)
+                startActivity(intent)
+            }
         }
         return super.onOptionsItemSelected(item)
     }
