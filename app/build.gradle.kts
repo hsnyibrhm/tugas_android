@@ -56,6 +56,8 @@ dependencies {
     annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
     implementation ("androidx.lifecycle:lifecycle-viewmodel:2.3.1")
     implementation ("androidx.lifecycle:lifecycle-livedata:2.3.1")
+    implementation ("com.airbnb.android:lottie:3.4.4")
+
 
 
 }

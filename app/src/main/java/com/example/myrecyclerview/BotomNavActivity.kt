@@ -23,6 +23,10 @@ class BotomNavActivity : AppCompatActivity() {
                     val intent = Intent(this, NavDrawerActivity::class.java)
                     startActivity(intent)
                 }
+                R.id.animasi ->{
+                    val intent = Intent(this, AnimasiActivity::class.java)
+                    startActivity(intent)
+                }
                 else->{
 
                 }
